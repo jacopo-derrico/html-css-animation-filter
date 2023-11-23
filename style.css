@@ -99,11 +99,11 @@
 /* EX 2 */
 
 .ex-2-square {
-    transition: scale 2s;
+    transition: width 2s;
 }
 
 .ex-2-square:active {
-    scale: 3;
+    width: 50%;
 }
 
 /* EX 3 */
