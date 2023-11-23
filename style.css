@@ -145,3 +145,37 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+/* EX 7 */
+
+.ex-7-img {
+    transition: all 3s;
+}
+
+.ex-7-img:hover {
+    filter: contrast(6);
+    filter: hue-rotate(90deg);
+}
+
+/* EX 8 */
+
+.ex-8-img {
+    transition: all 3s;
+}
+
+.ex-8-img:hover {
+    filter: contrast(8) grayscale(1);
+    border-radius: 30px;
+}
+
+/* EX 9 */
+
+.ex-9-img {
+    transition: all 2s;
+}
+
+.ex-9-img:hover {
+    filter: hue-rotate(180deg) sepia(1);
+    border-radius: 50px;
+    scale: 2;
+}
