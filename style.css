@@ -179,3 +179,37 @@
     border-radius: 50px;
     scale: 2;
 }
+
+/* EX 10 */
+
+.ex-10-icon {
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* EX 11 */
+
+.ex-11-icon:hover {
+    animation-name: half-rotate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes half-rotate {
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
